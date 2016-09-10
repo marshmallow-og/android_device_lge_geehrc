@@ -2,15 +2,15 @@
 TARGET_BOOTANIMATION_SIZE := 720x407
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/geehrc/full_geehrc.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := geehrc
-PRODUCT_NAME := omni_geehrc
+PRODUCT_NAME := du_geehrc
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
