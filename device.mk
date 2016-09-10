@@ -39,10 +39,6 @@ PRODUCT_PACKAGES += \
         camera.geehrc \
 	lights.geehrc \
 
-# SnapdragonCamera
-PRODUCT_PACKAGES += \
-        SnapdragonCamera
-
 PRODUCT_PACKAGES += \
     charger_res_images
 
