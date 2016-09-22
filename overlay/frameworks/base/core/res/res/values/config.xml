@@ -114,10 +114,6 @@
         <item>255</item>
     </integer-array>
 
-    <!-- Boolean indicating whether we want button brightness support -->
-    <bool name="config_button_brightness_support">true</bool>
-    <integer name="config_button_brightness_default">255</integer>
-
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">1</integer>
 
